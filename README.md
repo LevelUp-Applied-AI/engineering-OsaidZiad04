@@ -28,3 +28,22 @@ source .venv/bin/activate   # Mac/Linux
 # or: source .venv/Scripts/activate  (Windows Git Bash)
 pip install -r requirements-prework.txt
 ```
+
+## How to run
+
+1. **Set up the environment**:
+   ```bash
+   # Windows:
+   .venv\Scripts\activate
+   # Mac/Linux:
+   source .venv/bin/activate
+   pip install -r requirements-prework.txt
+   ```
+
+2. **Run the code**:
+   ```bash
+   python src/smoke_test.py
+   ```
+
+3. **Confirm success**:
+   The terminal should output: `Smoke test passed!`
